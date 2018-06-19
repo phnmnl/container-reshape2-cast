@@ -1,0 +1,3 @@
+which Rscript
+which cast.R
+which run_test.sh
