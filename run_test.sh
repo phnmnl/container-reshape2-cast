@@ -3,7 +3,7 @@
 apk -U add wget ca-certificates
 mkdir /tmp/cast-out/
 cd /tmp/cast-out/
-wget https://github.com/galaxyproject/tools-iuc/blob/master/tools/reshape2/test-data/melt_result1.tabular
+wget https://raw.githubusercontent.com/galaxyproject/tools-iuc/master/tools/reshape2/test-data/melt_result1.tabular
 
 cast.R -i melt_result1.tabular
 
