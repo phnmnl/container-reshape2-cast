@@ -3,7 +3,7 @@ FROM artemklevtsov/r-alpine:3.3.1
 MAINTAINER PhenoMeNal-H2020 Project ( phenomenal-h2020-users@googlegroups.com )
 
 LABEL software.version="0.1"
-LABEL version="0.1"
+LABEL version="0.1.1"
 LABEL software="reshape2-cast"
 LABEL base.image="artemklevtsov/r-alpine:3.3.1"
 LABEL description="expand combinations of variables:values to columnar format"
